@@ -1,0 +1,52 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*set padding, font and color*/
+
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+}
+/*styling for the outter section or "container" */
+h1 {
+  margin-bottom: 20px;
+}
+
+p#message {
+  font-size: 18px;
+  margin-bottom: 10px;
+/*bigger font size and larger margin for readability*/
+}
+
+input#textBox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+/*rounded corners with border radius, and spacing and color*/
+}
+
+button#checkButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+/*button styling for the "check button"*/
+}
+
+button#checkButton:hover {
+  background-color: #3e8e41;
+ /* uses a darker cover to simulate a diming effect when hovering with the mouse*/
+}
+
+
